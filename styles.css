@@ -1,48 +1,248 @@
 /* shared style */
 
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
-}
-.nav title{
+    margin: 0px 180px;
 
-color:black;
-
-font-size: 45px;
-font-weight: 800;
-line-height: normal;
 }
 
-.text-primary{ color: #FD6E0A;
-    
+.nav title {
+
+    color: black;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: normal;
 }
-.btn-primary{
+
+.text-primary {
+    color: #FD6E0A;
+
+}
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     color: azure;
     padding: 15px 30px;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
-    list-style:none;
-    margin-right: 50px; 
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
-   
-    }
+
+}
+
+/* header related */
+.header {
+    background: #FFF8F3;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.developer-pic {}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+.banner-title {
+    font-size: 70px;
+    font-weight: 650;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-greeting {
+    font-size: 45px;
+    color: #3f3939;
+    margin-bottom: 0px;
+}
+.banner-text {
+    display: flex;
+    width: 585px;
+    flex-direction: column;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 50;
+    line-height: 30px;
+
+}
+
+.new-img {
+    position: absolute;
+    height: 550px;
+}
+
+.about-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.about-title {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    font-weight: bold;
+
+}
+.about-description {
+
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 300px;
+    font-weight: lighter;
+
+}
+.about-info-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20PX 400PX;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 15PX;
+    font-weight: 0PX;
+    font-size: small;
+}
+
+/* whatido styles */
+
+.skills-div {
+    display: flex;
+    gap: 24px;
+    /* margin: 20px 500px; */
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.skill {
+    padding: 40px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 200px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* footer styles */
+.footer-hedings {
+    display: flex;
+    justify-content: space-around;
+    min-height: 60vh;
+
+}
+.footer {
+    background-color: #FFF8F3;
+}
+
+.section-description {
+
+    width: 550px;
+    color: var(--dark-02, #474747);
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.footer-div {
+    justify-content: space-between;
+}
+
+.social-links>a {
+    margin-right: 15px;
+}
+
+.contact input,
+textarea {
+    display: block;
+
+}
+.contact {
+    margin: auto;
+    justify-content: left;
+
+}
+.input {
+
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border: none;
+    width: 461px;
+    height: 64px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.section-title {
+
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-box {
+    padding-left: 30px;
+    border: none;
+    width: 461px;
+    height: 180px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+
+}
+
+.copyright {
+    text-align: center;
+
+}
